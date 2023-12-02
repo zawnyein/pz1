@@ -46,7 +46,7 @@ jobs:
           type: now
           from_branch: dev
           target_branch: uat
-          github_token: ${{ secrets.HAO_GA_TOKEN }}
+          github_token: ${{ secrets.ZAW_GA_TOKEN }}
 
       - name: Print success message
         run: echo "Success!!! DEV is now in UAT"
